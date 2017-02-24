@@ -1,5 +1,7 @@
-(ns sandbox.remember)
+(ns sandbox.notes)
 
+;; References:
+;; - Houser, The Joy of Clojure
 
 ;; slices
 (subvec [1 2 3 4] 1 3)
