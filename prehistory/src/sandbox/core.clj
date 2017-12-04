@@ -1,6 +1,6 @@
 (ns sandbox.core
   (:require [clojure.spec :as s]
-            [clojure.spec.gen :as g]
+            [clojure.spec.gen :as gen]
             [clojure.string :as string]
             [clojure.spec.test :as t]))
 
@@ -106,3 +106,6 @@
 
 (s/def ::hash (s/with-gen (s/and hex-str? #(= (count %) 20))
                 #(hex-str-gen 20)))
+
+
+(def symbol* 1)

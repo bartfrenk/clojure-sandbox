@@ -10,7 +10,9 @@
                             [com.taoensso/timbre "4.8.0"]
                             [clojure-future-spec "1.9.0-alpha14"]
                             [com.stuartsierra/component "0.3.2"]
+                            [prismatic/schema-generators "0.1.0"]
                             [adzerk/boot-test "RELEASE" :scope "test"]
+                            [criterium "0.4.4"]
                             [prismatic/schema "1.1.3"]
                             [mount "0.1.11"]
                             [slingshot "0.12.2"]])
